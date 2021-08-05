@@ -1,0 +1,22 @@
+.digit-paginate ul{
+    list-style: none;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.digit-paginate ul li{
+    padding:5px;
+    margin:5px;
+    border:1px solid #ff2058;
+    border-radius: 4px;
+    cursor: pointer;
+}
+.digit-paginate ul li a{
+    text-decoration: none;
+    color:#ff2058;   
+}
+.digit-paginate ul li:hover{
+    box-shadow: 0 1px 4px #ff2058;
+    border:2px;
+}
